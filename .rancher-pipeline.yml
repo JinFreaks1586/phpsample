@@ -5,6 +5,8 @@ stages:
       dockerfilePath: ./Dockerfile
       buildContext: .
       tag: willymartana/phpsample
+    env:
+      user: JinFreaks
 timeout: 60
 branch:
   include:
