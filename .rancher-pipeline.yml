@@ -5,6 +5,8 @@ stages:
       dockerfilePath: ./Dockerfile
       buildContext: .
       tag: willymartana/phpsample
+      pushRemote: true
+      registry: index.docker.io
 timeout: 60
 branch:
   include:
