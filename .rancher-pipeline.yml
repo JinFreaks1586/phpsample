@@ -7,6 +7,8 @@ stages:
       tag: willymartana/phpsample:${CICD_EXECUTION_SEQUENCE}
       pushRemote: true
       registry: index.docker.io
+    env:
+      user: JinFreaks
 timeout: 60
 branch:
   include:
