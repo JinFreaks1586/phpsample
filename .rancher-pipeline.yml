@@ -1,0 +1,8 @@
+stages:
+- name: runscript
+  steps:
+  - publishImageConfig:
+      dockerfilePath: ./Dockerfile
+      buildContext: .
+      tag: willymartana/phpsample
+timeout: 60
