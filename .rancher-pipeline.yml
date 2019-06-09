@@ -6,3 +6,6 @@ stages:
       buildContext: .
       tag: willymartana/phpsample
 timeout: 60
+branch:
+  include:
+  - master
